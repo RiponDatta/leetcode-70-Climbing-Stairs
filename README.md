@@ -46,7 +46,7 @@ private static int ClimbDP(int n, int[] cached)
 
 ## Approach: Fibonacci Formula
 
-Fn = 1/sqrt(5) ( ( ( (1 + sqrt(5)) / 2) ^ n + 1) - ( ( (1 - sqrt(5)) / 2) ^ n - 1)
+Fn = 1/sqrt(5) ( ( ( (1 + sqrt(5)) / 2) ^ n + 1) - ( ( (1 - sqrt(5)) / 2) ^ n + 1)
 
 ```C#
 public int ClimbStairs(int n)
